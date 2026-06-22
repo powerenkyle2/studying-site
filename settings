@@ -1,0 +1,300 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Catclass</title>
+		<link rel="icon" type="icon/x-icon" href="/assets/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Launch into Catclass, the next gen site."
+		/>
+		<meta
+			name="keywords"
+			content="Site, Unblocker, Catclass Unblocker, Catclass"
+		/>
+		<meta property="og:image" content="/assets/logo.png" />
+		<link
+			rel="preload"
+			as="style"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		/>
+		<link
+			rel="preload"
+			as="style"
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+		/>
+		<link rel="stylesheet" href="/css/index.css" />
+		<link rel="stylesheet" href="/css/themes.css" />
+		<link rel="stylesheet" href="/css/settings.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..400,0..1"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>window.CATCLASS_TOKEN = localStorage.getItem('api_token') || '';</script>
+<!-- <script src="https://core.catclass.org/ez-ads-manager.js?v=<%= Math.floor(Date.now() / 86400000) %>"></script> -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSQQRMBPQM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NSQQRMBPQM');
+</script>
+<script data-goatcounter="https://catclass.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+		<script type="text/javascript">
+
+    (function(c,l,a,r,i,t,y){
+
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+
+    })(window, document, "clarity", "script", "wsql7v6zor");
+
+</script>
+	</head>
+
+	<body>
+		<ul class="navbar">
+			<li style="margin-left: -1px; margin-top: 2px">
+				<a href="/"
+					><img class="logo" src="/assets/logo1.png" alt="Logo"
+				/></a>
+			</li>
+			<li>
+				<a href="/"
+					><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q146 0 255.5 91.5T872-559h-82q-19-73-68.5-130.5T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h80v120h-40L168-552q-3 18-5.5 36t-2.5 36q0 131 92 225t228 95v80Zm364-20L716-228q-21 12-45 20t-51 8q-75 0-127.5-52.5T440-380q0-75 52.5-127.5T620-560q75 0 127.5 52.5T800-380q0 27-8 51t-20 45l128 128-56 56ZM691-309q29-29 29-71t-29-71q-29-29-71-29t-71 29q-29 29-29 71t29 71q29 29 71 29t71-29Z"/></svg></a
+				>
+			</li>
+			<li>
+				<a href="/g"
+					><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M160-240q-33 0-56.5-23.5T80-320v-320q0-33 23.5-56.5T160-720h640q33 0 56.5 23.5T880-640v320q0 33-23.5 56.5T800-240H160Zm0-80h640v-320H160v320Zm120-40h80v-80h80v-80h-80v-80h-80v80h-80v80h80v80Zm342.5-17.5Q640-395 640-420t-17.5-42.5Q605-480 580-480t-42.5 17.5Q520-445 520-420t17.5 42.5Q555-360 580-360t42.5-17.5Zm120-120Q760-515 760-540t-17.5-42.5Q725-600 700-600t-42.5 17.5Q640-565 640-540t17.5 42.5Q675-480 700-480t42.5-17.5ZM160-320v-320 320Z"/></svg></a
+				>
+			</li>
+			<li>
+				<a href="/settings">
+					<svg id="navactive" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg></a>
+			</li>
+			<li>
+				<a target="_blank" href="https://discord.catclass.org">
+					<div
+						style="
+							height: 40px !important;
+							width: 40px !important;
+							margin-top: 10px;
+							margin-bottom: -6px;
+						"
+					>
+						<i
+							class="fa-brands fa-discord"
+							style="transform: translateY(-6px)"
+						></i>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://links.catclass.space" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFF"><path d="M318-120q-82 0-140-58t-58-140q0-40 15-76t43-64l134-133 56 56-134 134q-17 17-25.5 38.5T200-318q0 49 34.5 83.5T318-200q23 0 45-8.5t39-25.5l133-134 57 57-134 133q-28 28-64 43t-76 15Zm79-220-57-57 223-223 57 57-223 223Zm251-28-56-57 134-133q17-17 25-38t8-44q0-50-34-85t-84-35q-23 0-44.5 8.5T558-726L425-592l-57-56 134-134q28-28 64-43t76-15q82 0 139.5 58T839-641q0 39-14.5 75T782-502L648-368Z"/></svg>
+				</a>
+			</li>
+		</ul>
+
+		<div class="settings-wrapper">
+			<div class="scontent">
+				<div class="settingsection settingsection1">
+					<h1>Cloaking</h1>
+					<div class="cloak-row">
+						<button class="splitbutton" onclick="launchAboutBlank()">About:Blank</button>
+						<div class="cloak-toggle-label">
+							<span>Auto-launch</span>
+							<label class="switch"><input class="checkbox checkbox-blob-aboutBlank autoLaunchAboutBlank" type="checkbox" /><span class="slider round"></span></label>
+						</div>
+					</div>
+					<div class="cloak-row">
+						<button class="splitbutton" onclick="launchBlob()">Blob</button>
+						<div class="cloak-toggle-label">
+							<span>Auto-launch</span>
+							<label class="switch"><input class="checkbox checkbox-blob-aboutBlank autoLaunchBlob" type="checkbox" /><span class="slider round"></span></label>
+						</div>
+					</div>
+				</div>
+
+				<div class="settingsection settingsection1">
+					<h1>Tab Cloaking</h1>
+					<div class="cloak-grid">
+						<div class="cloak-option" data-cloak="None (Default)">
+							<img src="/assets/logo.png" alt="None" />
+							<span>None</span>
+						</div>
+						<div class="cloak-option" data-cloak="Google Classroom">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=classroom.google.com" alt="Google Classroom" />
+							<span>Classroom</span>
+						</div>
+						<div class="cloak-option" data-cloak="Google Drive">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=drive.google.com" alt="Google Drive" />
+							<span>Drive</span>
+						</div>
+						<div class="cloak-option" data-cloak="Khan Academy">
+							<img src="https://icons.duckduckgo.com/ip3/khanacademy.org.ico" alt="Khan Academy" />
+							<span>Khan Academy</span>
+						</div>
+						<div class="cloak-option" data-cloak="Quizlet">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=quizlet.com" alt="Quizlet" />
+							<span>Quizlet</span>
+						</div>
+					</div>
+				</div>
+
+				<div style="z-index: 998" class="settingsection settingsection1">
+					<h1>Panic Key</h1>
+					<div class="panic-row">
+						<input class="panic-input panicKey" placeholder="Escape" />
+						<button class="buttonreg panicKeySave">Save</button>
+					</div>
+				</div>
+
+				<div class="settingsection settingsection1">
+					<h1>Search Engine</h1>
+					<div class="cloak-grid">
+						<div class="cloak-option" data-search="DuckDuckGo (default)">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=duckduckgo.com" alt="DuckDuckGo" />
+							<span>DuckDuckGo</span>
+						</div>
+						<div class="cloak-option" data-search="Google">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=google.com" alt="Google" />
+							<span>Google</span>
+						</div>
+						<div class="cloak-option" data-search="Bing">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=bing.com" alt="Bing" />
+							<span>Bing</span>
+						</div>
+						<div class="cloak-option" data-search="Yahoo!">
+							<img src="https://www.google.com/s2/favicons?sz=64&domain=yahoo.com" alt="Yahoo!" />
+							<span>Yahoo!</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="settingsection settingsection1">
+					<div style="display:flex; gap:24px;">
+						<div style="flex:1; min-width:0;">
+							<h1>Proxy Engine</h1>
+							<div class="cloak-grid">
+								<div class="cloak-option" data-proxy="Scramjet">
+									<img src="https://www.google.com/s2/favicons?sz=64&domain=github.com" alt="Scramjet" />
+									<span>Scramjet</span>
+								</div>
+								<div class="cloak-option" data-proxy="Ultraviolet">
+									<img src="https://www.google.com/s2/favicons?sz=64&domain=github.com" alt="Ultraviolet" />
+									<span>Ultraviolet</span>
+								</div>
+							</div>
+						</div>
+						<div style="flex:1; min-width:0;">
+							<h1>Transport</h1>
+							<div class="cloak-grid">
+								<div class="cloak-option" data-transport="Libcurl">
+									<img src="https://www.google.com/s2/favicons?sz=64&domain=curl.se" alt="Libcurl" />
+									<span>Libcurl</span>
+								</div>
+								<div class="cloak-option" data-transport="Epoxy">
+									<img src="https://www.google.com/s2/favicons?sz=64&domain=github.com" alt="Epoxy" />
+									<span>Epoxy</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="settingsection settingsection1">
+					<h1>Premium</h1>
+					<div class="pgroup">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="picon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+							<path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+						</svg>
+						<input class="input apiToken" placeholder="Enter your API token" type="password" />
+					</div>
+					<div style="display: flex; gap: 8px; margin-top: 8px;">
+						<button class="buttonreg apiTokenSave">Save</button>
+						<button class="buttonreg apiTokenRemove">Remove</button>
+					</div>
+				</div>
+
+				<div class="settingsection settingsection1">
+					<h1>Custom WISP Server</h1>
+					<div class="pgroup">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="picon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+							<rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+							<line x1="6" x2="6.01" y1="6" y2="6" />
+							<line x1="6" x2="6.01" y1="18" y2="18" />
+						</svg>
+						<input class="input wisp" placeholder="wss://your-wisp-server/wisp/" />
+					</div>
+					<div style="display: flex; gap: 8px; margin-top: 8px;">
+						<button class="buttonreg wispSave">Save</button>
+						<button class="buttonreg wispReset">Reset</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div style="z-index: -998">
+			<div style="z-index: -998; position: fixed" class="blob"></div>
+			<div style="z-index: -998; position: fixed" class="blobbig"></div>
+			<div style="z-index: -998; position: fixed" class="blobsmall"></div>
+			<div style="z-index: -998; position: fixed" class="blobtop"></div>
+			<div style="z-index: -999" id="particles-js" class=""></div>
+		</div>
+
+		<script>
+			particlesJS('particles-js', {
+				particles: {
+					number: { value: 35, density: { enable: true, value_area: 800 } },
+					color: { value: '#ffffff' },
+					shape: { type: 'image', stroke: { width: 0, color: '#000000' }, polygon: { nb_sides: 5 }, image: { src: '/assets/logo1.png', width: 100, height: 100 } },
+					opacity: { value: 0.55, random: true, anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false } },
+					size: { value: 18, random: true, anim: { enable: false, speed: 40, size_min: 0.1, sync: false } },
+					line_linked: { enable: false, distance: 150, color: '#ffffff', opacity: 0.4, width: 1 },
+					move: { enable: true, speed: 0.5, direction: 'top', random: false, straight: false, out_mode: 'out', bounce: false, attract: { enable: false, rotateX: 318.01, rotateY: 556.52 } }
+				},
+				interactivity: {
+					detect_on: 'window',
+					events: { onhover: { enable: false, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+					modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 10 }, remove: { particles_nb: 10 } }
+				},
+				retina_detect: true
+			});
+		</script>
+		<script src="/js/localforage.min.js"></script>
+		<script src="/js/config.js"></script>
+		<script src="/js/themes.js"></script>
+		<script src="/js/settings.js"></script>
+
+		<script>
+			let CLF_config = {
+				app_id: '163a312a-7cde-41ab-a80c-cb4cf281efdf',
+				data: {
+					user_id: '123456',
+					user_email: 'user@email.com',
+					user_name: 'User Name',
+					custom_data: {
+						JobRole: 'CEO',
+						Plan: 'Pro',
+						teamMates: '4',
+						MonthlySpend: '50 USD'
+					}
+				}
+			};
+<span style="position:fixed;bottom:8px;right:12px;font-size:10px;font-family:'DM Sans',sans-serif;color:gray;z-index:2147483600;letter-spacing:0.5px;user-select:none;">made with ❤️ by <a href="https://catclass.net" target="_blank" rel="noopener" style="color:gray;text-decoration:none;" tabindex="-1">catclass.net</a></span>
+	</body>
+</html>
